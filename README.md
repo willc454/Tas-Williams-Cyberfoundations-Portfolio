@@ -1,3 +1,5 @@
+I bring more than 15 years of experience developing policy, leading strategic initiatives, and advising executive leadership across several sectors including federal government and non-profits. My work sits at the intersection of program managment, strategy, compliance, and communications, helping organizations make informed decisions. I joined CVI to gain a foundation and roadmap to transition my skillset to cybersecurity and build a community while doing so. I would like to leave this program with the abilty to help companies develop and/or improve their cybersecurity framework to ensure the safety of their organizational assets, employees, customers, and clients. 
+
 # CyberVisionaries Institute (CVI) — Cyber Foundations Student Portfolio
 
 **New here? Read [START-HERE.md](START-HERE.md) first — it walks you through your very first commit, step by step.**
