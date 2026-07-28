@@ -149,7 +149,7 @@ This step happens directly on GitHub, not through this worksheet — there's no 
 In your own words, explain how the real numbers you found in Part A (OS version, RAM, storage) relate to what you just watched live in Part B. Which number describes hardware, and which describes the OS?
 
 ```
-Part B shows exactly how the RAM and storage are being utilized. It also show more components of the OS. 
+Part B shows exactly how the RAM and storage are being utilized. It also shows more components of the OS. 
 ```
 
 ---
@@ -161,7 +161,7 @@ Part B shows exactly how the RAM and storage are being utilized. It also show mo
 Pick one process from your list in Part B, Step 6. Is it "software" in the sense Lab 01 used that word? Explain how it depends on the OS and on hardware to actually run.
 
 ```
-I do not believe anything from my list is software. Software depends on the OS and hardware to be able to  work on the computer. It relies on them for graphics, for space to operate, and for memory to stay open and save information.
+Windows Hello Security Process is software that relies on both the operating system (OS) and hardware to run. When a user enters their password, the OS receives it and coordinates with the hardware to verify it. The password is temporarily stored in RAM while the CPU processes it and compares it to the stored password. The CPU gives the password to the OS, and the OS decides whether to unlock the computer or keep it locked. If the password is incorrect, the software notifies the user and prompts them to try again. When a new password is entered, it is again temporarily stored in RAM while the CPU compares it to the securely stored information. If it is correct, the OS allows the software to unlock the computer.
 ```
 
 ### Analysis Question 2
@@ -177,7 +177,7 @@ I initially assumed that the hardware and operating system would use a large per
 Compare what you saw in Task Manager/Activity Monitor to the diagram you built in Lab 01. What's the same? What did watching your machine live show you that a static diagram couldn't?
 
 ```
-The diagram and the activity are similar because they both share information about the system architecture however, the diagram is static but the Task Manager showed live, specific, and more in-depth information. The diagram shows general layers while the Task Manager is individualized to the component of the computer. 
+The diagram and the activity are similar because they both share information about the system architecture however, the diagram is static but the Task Manager showed live, specific, and more in-depth information. The diagram shows general layers while the Task Manager is individualized to the component of the computer. Task Manager can be used to determine the root of an issue by giving details about the systems on the computer. If an issue can not be troubleshooted based on the information in the task manager, it is possible that the issue may be with the hardware or a software program that is external (like a website) from the computer. 
 ```
 
 ---
