@@ -1,8 +1,8 @@
 # Week 3 Notes — Windows, Linux, and Your First Commands
 
-**Student Name:**
+**Student Name:** Catasia Williams
 
-**Date Completed:**
+**Date Completed:** August 2, 2026
 
 Summarize this week's key concepts in your own words — not copy-pasted definitions.
 
