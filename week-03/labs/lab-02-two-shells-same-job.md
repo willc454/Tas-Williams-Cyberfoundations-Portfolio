@@ -287,8 +287,8 @@ Fill in the exact commands you typed for each task. Do not use generic names —
 | --- | --- | --- |
 | 1. Where am I? | pwd | Get-Location |
 | 2. Look around | ls | Get-ChildItem |
-| 3. Move into a folder | cat access | Set-Location |
-| 4. Peek inside a file | cd | Get-Content |
+| 3. Move into a folder | cd| Set-Location |
+| 4. Peek inside a file | cat access | Get-Content |
 | 5. Create + back up your note | cp | Copy-Item |
 
 **⚠️ Stop and check:** did you use the exact same folder and file for both your bash and PowerShell passes? If they don't match, your comparison table below won't make sense — go back to Part B and re-target the same location before continuing.
@@ -318,7 +318,7 @@ Even though the operating systems and commands are different there are similarit
 Which command pair (e.g., pwd vs. Get-Location, ls vs. dir, cat vs. type) felt most different to you? Give a specific reason why one felt more comfortable or intuitive than the other. Minimum 3 sentences.
 
 ```
-The cat vs. type command felt most different to me. It felt most different because it is slightly used differently than ls and dir. I needed to add a broader instruction after it unlike ls.
+The pwd vs. Get-Location command felt most different to me. It felt most different because it is slightly used differently than ls and dir. I needed to add a broader instruction after it unlike ls.
 ```
 
 ### Analysis Question 3 — Applying Lesson 2 Differences
