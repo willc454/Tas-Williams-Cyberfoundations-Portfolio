@@ -114,7 +114,7 @@ ping 10.60.6.4
 Output:
 
 ```
-PING 10.60.6.4 (10.60.6.4) 56(84) bytes of data.
+ping 10.60.6.4 (10.60.6.4) 56(84) bytes of data.
 64 bytes from 10.60.6.4: icmp_seq=1 ttl=64 time=1.65 ms
 ```
 
