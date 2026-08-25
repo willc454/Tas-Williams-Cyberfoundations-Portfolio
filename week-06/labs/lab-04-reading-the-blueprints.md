@@ -184,7 +184,7 @@ I would default to the live machine because the machine provides real-time infor
 
 - [x] `ip route` run and default route behaviour explained (Part B, Step 2)
 
-- [ ] `blueprint-verified.png` captured from your own terminal, cropped, uploaded to `assets/screenshots/week-06/` (Part B, Step 3)
+- [x] `blueprint-verified.png` captured from your own terminal, cropped, uploaded to `assets/screenshots/week-06/` (Part B, Step 3)
 
 - [x] Private address / NAT / Bastion explained (Part C, Steps 1–2)
 
