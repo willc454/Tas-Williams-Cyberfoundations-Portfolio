@@ -58,7 +58,7 @@ Record each protected rule exactly as shown.
 
 | Priority | Rule name | Direction | Protocol | Source | Destination/port | Action | Protected? |
 |---|---|---|---|---|---|---|---|
-| 100 |  |  |  |  |  |  | Yes |
+| 100 |allow-ssh-from-bastion  |Inbound  | TCP |192.168.10.128/26  |22 |ALLOW  | Yes |
 | 110 |  |  |  |  |  |  | Yes |
 | 120 |  |  |  |  |  |  | Yes |
 
