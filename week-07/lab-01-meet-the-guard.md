@@ -67,14 +67,14 @@ Record each protected rule exactly as shown.
 For each field, write the question it answers: direction, source, source port, destination, destination port, protocol, action, and priority.
 
 ```text
-(Direction: Is traffic going inbound or outbound?
+Direction: Is traffic going inbound or outbound?
 Source: Where is the traffic coming from?
 Source port: What port is the source using to send traffic?
 Destination: Where is the traffic going?
 Destination port: Which port is the traffic trying to reach?
 Protocol: What type of network traffic is being used (Tcp, Udp, Icmp)? 
 Action: What the rule tells the security control to do when traffic matches (allow or deny)?
-Priority: What order rules are the evaluated? )
+Priority: What order rules are the evaluated? 
 ```
 
 ## Stop & Check
@@ -96,12 +96,12 @@ Capture the complete visible baseline rule list. If it does not fit in one image
 In 3–4 sentences, explain how protected baselines and a separate student priority band reduce accidental lockout while still allowing meaningful practice.
 
 ```text
-(your explanation here)
+Protected baselines and separate student priority bands allows for meaningful practice. The protect baseline protects the integrity of the lab environment. A separate student priority band allows for students to engage in meaningful hands-on practice.
 ```
 
 ## Required Evidence
 
-Save screenshots in `assets/screenshots/week-07/`:
+Save screenshots in `assets/screenshots/week-07/`: https://raw.githubusercontent.com/willc454/Tas-Williams-Cyberfoundations-Portfolio/refs/heads/main/assets/screenshots/week-07/week07-lab01-security-rules-baseline.png
 
 - `week07-lab01-security-rules-baseline.png`
 
@@ -112,19 +112,22 @@ Open each image at full size before submission. Confirm that no password, Bastio
 **Analysis Question 1.** Why is a priority number part of rule behavior rather than just an identifier? (Minimum 3 sentences.)
 
 ```text
-(your answer here)
+A priority number determines the order rules are applied when multiple rules can be applied. Lower numbers are applied before higher numbers. This structure is what makes a priority number part of rule behavior because the numbers are functional and determines which rules are evaluated first; the numbers are not simply chronological, not a representation of severity, not an importance rating, and not a preference — it is a queue position.
 ```
 
 **Analysis Question 2.** Explain the difference between a rule being visible, editable, and protected. (Minimum 3 sentences.)
 
 ```text
-(your answer here)
+Rules are either visible, editable, and/or protected. Here is the breakdown of the difference between those 3 categories. 
+Visible: can see and inspect the rule.
+Editable: the rule's settings can be changed.
+Protected: the rule can't be modified. 
 ```
 
 **Analysis Question 3.** Which baseline rule protects your current administrative path, and why must it never be used as a troubleshooting target? (Minimum 3 sentences.)
 
 ```text
-(your answer here)
+The protected rule protects the current administrative path. It serves as a baseline line. It should never be used as a troubleshooting target because modifications can cause unintended security or access issues. Changes to protected rules can result in administrative lockouts preventing the administrator(s) from properly managing the system. 
 ```
 
 ## Submission Checklist
