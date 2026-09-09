@@ -67,7 +67,14 @@ Record each protected rule exactly as shown.
 For each field, write the question it answers: direction, source, source port, destination, destination port, protocol, action, and priority.
 
 ```text
-(write your field-to-question map here)
+(Direction: Is traffic going inbound or outbound?
+Source: Where is the traffic coming from?
+Source port: What port is the source using to send traffic?
+Destination: Where is the traffic going?
+Destination port: Which port is the traffic trying to reach?
+Protocol: What type of network traffic is being used (Tcp, Udp, Icmp)? 
+Action: What the rule tells the security control to do when traffic matches (allow or deny)?
+Priority: What order rules are the evaluated? )
 ```
 
 ## Stop & Check
