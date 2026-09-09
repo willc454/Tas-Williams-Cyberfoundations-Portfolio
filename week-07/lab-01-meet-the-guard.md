@@ -58,9 +58,9 @@ Record each protected rule exactly as shown.
 
 | Priority | Rule name | Direction | Protocol | Source | Destination/port | Action | Protected? |
 |---|---|---|---|---|---|---|---|
-| 100 |allow-ssh-from-bastion  |Inbound  | TCP |192.168.10.128/26  |22 |ALLOW  | Yes |
-| 110 |  |  |  |  |  |  | Yes |
-| 120 |  |  |  |  |  |  | Yes |
+| 100 |allow-ssh-from-bastion  |Inbound  | TCP |192.168.10.128/26  |22 |Allow  | Yes |
+| 110 |allow-icmp-inta-vnet  |Inbound  |Icmp  |VirtualNetwork  |*  |Allow  | Yes |
+| 120 |deny-ssh-student-subnet  |Inbound  |Tcp  |10.60.6.0/26  |22  |Deny  | Yes |
 
 ### Step 3 — Map the Fields
 
