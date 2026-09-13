@@ -56,7 +56,7 @@ Return to **My Lab Environment** in the Lab Portal and start your assigned VM. A
 **[WORKSHEET]** What do you expect to see when encrypted data is inspected as bytes? Why should it not look like the original report?
 
 ```text
-I expect to see ciphertext when encrypted data is inspected by bytes. I should not see plaintext. cat ev
+When encrypted data is inspected as bytes, the data would not be readable. I expect to see ciphertext rather than plaintext. It should not look like the original report that is in readable plaintext because encryption turns the readable plaintext into ciphertext that can't be converted back into plaintext without the decryption key. 
 ```
 
 ## Guided Steps
@@ -135,14 +135,28 @@ Do not submit unless both required evidence moments succeeded.
 **[WORKSHEET]** In 3–4 sentences, explain how this lab demonstrates confidentiality and why encryption does not prevent deletion.
 
 ```text
-(write your explanation here)
+This lab demonstrates confidentiality because it demonstrates how encryption is used to transform readable plaintext into ciphertext and, prevent access to the information without a decryption key or passphrase. Encryption protects the content/data from unauthorized access but does not protect the actual file from deletion. Encryption is only related to the content/data that is inside of the file and is not associated with the availability of the file. If someone has access to a file, they can delete it, rename it, copy it or move it but, still not be able to read its content. 
 ```
 
 ## Analysis Questions
 
 1. Why can an encrypted file still be copied or deleted?
+
+```text
+An encrypted file can still be copied or deleted because encryption protects the contents of the file, but not the file itself. Encryption is related to confidentiality whereas the file is related to availability and accessibility. 
+```
+
 2. What job did the passphrase perform?
+
+```text
+The passphrase protected the private key because it added an additional layer of security. The passphrase is required to use the private key. If the private key was exposed, someone would still need the passphrase to use the private key. 
+```
+
 3. Why does the match test prove correct recovery but not prove who handled the file?
+
+```text
+The match test only proves that the encryption and decryption process worked properly. It does not identify who handled the file. 
+```
 
 ## Required Evidence
 
@@ -153,15 +167,15 @@ Save exactly these files in `assets/screenshots/week-08/`:
 
 ## Submission Checklist
 
-- [ ] Both required results appeared.
+- [x] Both required results appeared.
 
-- [ ] Both screenshots use the exact filenames above.
+- [x] Both screenshots use the exact filenames above.
 
-- [ ] No passphrase or other secret appears.
+- [x] No passphrase or other secret appears.
 
-- [ ] Every worksheet response is complete.
+- [x] Every worksheet response is complete.
 
-- [ ] The worksheet is saved at the stated submission path.
+- [x] The worksheet is saved at the stated submission path.
 
 ## GitHub / Lab Portal Submission
 
