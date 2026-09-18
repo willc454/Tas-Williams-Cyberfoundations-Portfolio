@@ -98,7 +98,7 @@ Link-local IPv6 Address
 Which of the addresses you found is the one your computer actually uses to reach the internet, and how did you decide?
 
 ```
-Ethernet adapter Bluetooth Network Connection
+The IPv4 address is the one the computer actually uses to reach the internet. The default gateway identifies the router my computer uses to communicate with other networks and access the internet. Therefore, the IPv4 address identifies my computer on the local network, while the default gateway provides the path to networks outside of my local network.
 ```
 
 ### Step 4 — Private or Public?
