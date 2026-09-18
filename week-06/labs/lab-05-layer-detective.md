@@ -105,7 +105,10 @@ There is no link and no address indicating that no signals are being transmitted
 Layer:
 
 ```
-None
+Layer 7 - Application
+The ping was successful, indicating that the server is reachable over the network using ICMP. 
+Curl failed/not useful, indicating that the problem is not with the network connectivity and can be with the application layer.
+
 ```
 
 Evidence that the layers below were working:
