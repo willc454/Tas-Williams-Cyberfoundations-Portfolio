@@ -351,7 +351,7 @@ A traceroute shows the path traffic takes toward a destination and the different
 **Analysis Question 3.** Part D asked you to decide what was safe to publish. Walk through your own judgement: what did you choose to hide, what did you judge safe to leave visible, and how did you decide where the line was? Name one thing you deliberately left in and explain why it was safe. *(Minimum 4 sentences.)*
 
 ```
-When I took my initial screenshot, I excluded my hostname and username because they are personally identifying information and were not necessary for the assignment. When reviewing the screenshot, I redacted my IP address and ISP information by cropping out the info because they could reveal identifying network-related details, creating unnecessary confidentiality and security risks.
+When I took my initial screenshot, I excluded my hostname and username because they are personally identifying information and were not necessary for the assignment. When reviewing the screenshot, I redacted my IP address and ISP information by cropping them out because they could reveal identifying network-related details and create unnecessary confidentiality and security risks. I made this decision by considering whether the information could identify my computer, which could then be used to access or target it. I deliberately left the Link-local IPv6 Address in the screenshot because it is not a publicly routable internet address - it is automatically assigned for local network communication. 
 ```
 
 ---
