@@ -200,7 +200,7 @@ The number ping showed for `foundry-archive.grid.local`, and its packet loss and
 ```
 IP address: 10.20.5.20
 Packet loss: 0%
-Latency: 3005ms
+Latency: 2.150ms
 ```
 
 ---
