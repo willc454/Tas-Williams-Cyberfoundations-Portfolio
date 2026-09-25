@@ -164,7 +164,7 @@ How many packets you sent, how many came back, and the typical round-trip time:
 ```
 Packets sent: 4 
 Packets received: 4
-Latency: 3005ms
+Latency: 1.150ms
 ```
 
 ### Step 3 — Ping a Machine by Name
