@@ -181,7 +181,7 @@ Clear the `dns` filter and enter `tcp.port == 443` instead. Port 443 is HTTPS �
 The packet numbers that remain after the `tcp.port == 443` filter:
 
 ```
-4 packets remain. 
+4 packets remain; packets 7,8,9, and 10 remain after tcp.port=443 filter is applied. 
 ```
 
 ### Step 2 — Identify the Three-Step Handshake
@@ -191,19 +191,19 @@ Three of those packets are the handshake itself. Find each one by reading the fl
 The SYN — packet number and direction:
 
 ```
-Packet #7: from 10.20.5.42 to 10.20.5.20
+Packet #7: from 10.20.5.42 to 10.20.5.20 / from the workstation to the server
 ```
 
 The SYN-ACK — packet number and direction:
 
 ```
-Packet #8: from 10.20.5.20 to 10.20.5.42
+Packet #8: from 10.20.5.20 to 10.20.5.42 / from the server to the workstation
 ```
 
 The ACK — packet number and direction:
 
 ```
-Packet #9: from 10.20.5.42 to 10.20.5.20
+Packet #9: from 10.20.5.42 to 10.20.5.20 / from the workstation to the server
 ```
 
 ### Step 3 — Notice the Two Port Numbers
