@@ -137,7 +137,7 @@ Expected hostname: example.com
 Matching SAN entry, or no match: DNS Name: example.com
 DNS Name: *.example.com
 Why the entry matches or does not match: The entry matches because it is the same as the website name  and the certificate also includes a wildcard with the same domain name.
-Observation time and certificate time zone: Current dates and times of the lab assignment: September 21, 2029
+Observation time and certificate time zone: Current dates and times of the lab assignment: September 21, 2026
 Is your observation time between the start and end dates? Explain: Yes, the certificate was issued prior to the assignment on July 29, 2026 and expires afte2026).r completion of the assignment (October 27, 2026).
 Browser-reported result: The browser reported the connection was secure and the certificate was valid.
 What I checked myself versus what the browser reported: I checked the SAN for a match with the website name and checked the certificate's validity period.
