@@ -1,6 +1,6 @@
 # Lab 06 — Identity Investigation + Case File (Deliverable 4)
 
-**Learner:** (name not entered)  
+**Learner:** Catasia Williams
 **Attempt:** attempt F6FAF6 · seed chic-w11-v1 · state revision 34 · text revision 431
 
 > Training simulation — fictional Cloud Heights accounts and resources. Your actions change only your Week 11 learning attempt. This is not a live AD domain, Microsoft Entra tenant or Azure subscription.
