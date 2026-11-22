@@ -77,25 +77,6 @@ The historical findings are supported by the records.
 - **Next action:** It should be ensured that the account holder knows the correct password and  has access to the appropriate privileges.
 - **Priority:** low — No access issues were reported. A review of the associated access privileges can avoid any potential issues.
 
-#### Finding 3: 
-
-- **Events:** none
-- **Observation:** _Not written yet._
-- **Hypothesis:** _Not written yet._
-- **Supported conclusion:** _Not written yet._
-- **Uncertainty / missing information:** _Not written yet._
-- **Next action:** _Not written yet._
-- **Priority:** not set — _Not written yet._
-
-#### Finding 4: 
-
-- **Events:** none
-- **Observation:** _Not written yet._
-- **Hypothesis:** _Not written yet._
-- **Supported conclusion:** _Not written yet._
-- **Uncertainty / missing information:** _Not written yet._
-- **Next action:** _Not written yet._
-- **Priority:** not set — _Not written yet._
 
 ### 10. Sign-in/audit correlation and one benign/ambiguous comparison
 
