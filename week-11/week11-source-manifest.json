@@ -1,0 +1,35 @@
+{
+  "deliverable": "Portfolio Deliverable 5",
+  "executiveFormat": "written",
+  "source": {
+    "path": "week-11/labs/lab-06-identity-investigation-case-file.md",
+    "attempt": "F6FAF6",
+    "attemptStatusWhenCopied": "active",
+    "week11TextRevision": 431,
+    "week11StateRevision": 34,
+    "completeWhenCopied": true,
+    "snapshotSha256": "7e3f2c7d1087fbca6bf158f9a77a638bb222f05058949621f043139f29872091",
+    "copiedAt": "2026-11-22T03:57:34.67+00:00"
+  },
+  "evidenceKeys": [
+    "EV-F6FAF6-001",
+    "EV-F6FAF6-002",
+    "EV-F6FAF6-003",
+    "EV-F6FAF6-004",
+    "EV-F6FAF6-005",
+    "EV-F6FAF6-006",
+    "EV-F6FAF6-007",
+    "EV-F6FAF6-008",
+    "EV-F6FAF6-009",
+    "EV-F6FAF6-010",
+    "EV-F6FAF6-011",
+    "EV-F6FAF6-012",
+    "EV-F6FAF6-013"
+  ],
+  "referencesCited": [
+    "S002",
+    "S003",
+    "S012"
+  ],
+  "draft": false
+}
