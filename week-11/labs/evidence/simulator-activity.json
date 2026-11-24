@@ -1,0 +1,999 @@
+{
+  "source": "LIVE — your simulated activity (fictional)",
+  "signins": [
+    {
+      "id": "LS-F6FAF6-1-1",
+      "raw": {
+        "user": "alex@cvi-training.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-F6FAF6-1-1",
+        "time_utc": "2026-09-28T13:01:00Z",
+        "device_id": "managed-alex",
+        "source_ip": "192.0.2.10",
+        "mfa_detail": "challenged_now",
+        "application": "CaseDesk",
+        "correlation_id": "LC-F6FAF6-1",
+        "scenario_location": "Office-A",
+        "authentication_method": "password_plus_mfa"
+      },
+      "seq": 1,
+      "account": "cl-alex"
+    },
+    {
+      "id": "LS-F6FAF6-3-1",
+      "raw": {
+        "user": "alex@cvi-training.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-F6FAF6-3-1",
+        "time_utc": "2026-09-28T13:03:00Z",
+        "device_id": "managed-alex",
+        "source_ip": "192.0.2.10",
+        "mfa_detail": "challenged_now",
+        "application": "CaseDesk",
+        "correlation_id": "LC-F6FAF6-3",
+        "scenario_location": "Office-A",
+        "authentication_method": "password_plus_mfa"
+      },
+      "seq": 3,
+      "account": "cl-alex"
+    },
+    {
+      "id": "LS-F6FAF6-4-1",
+      "raw": {
+        "user": "alex@ad.cloudheights.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-F6FAF6-4-1",
+        "time_utc": "2026-09-28T13:04:00Z",
+        "device_id": "managed-alex",
+        "source_ip": "192.0.2.10",
+        "mfa_detail": "not_recorded",
+        "application": "AD-Logon (simulated)",
+        "correlation_id": "LC-F6FAF6-4",
+        "scenario_location": "Office-A",
+        "authentication_method": "password"
+      },
+      "seq": 4,
+      "account": "ad-alex"
+    },
+    {
+      "id": "LS-F6FAF6-5-1",
+      "raw": {
+        "user": "alex@cvi-training.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-F6FAF6-5-1",
+        "time_utc": "2026-09-28T13:05:00Z",
+        "device_id": "managed-alex",
+        "source_ip": "192.0.2.10",
+        "mfa_detail": "challenged_now",
+        "application": "CaseDesk",
+        "correlation_id": "LC-F6FAF6-5",
+        "scenario_location": "Office-A",
+        "authentication_method": "password_plus_mfa"
+      },
+      "seq": 5,
+      "account": "cl-alex"
+    },
+    {
+      "id": "LS-F6FAF6-6-1",
+      "raw": {
+        "user": "blair@cvi-training.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-F6FAF6-6-1",
+        "time_utc": "2026-09-28T13:06:00Z",
+        "device_id": "managed-blair",
+        "source_ip": "192.0.2.11",
+        "mfa_detail": "challenged_now",
+        "application": "CaseDesk",
+        "correlation_id": "LC-F6FAF6-6",
+        "scenario_location": "Office-A",
+        "authentication_method": "password_plus_mfa"
+      },
+      "seq": 6,
+      "account": "cl-blair"
+    },
+    {
+      "id": "LS-F6FAF6-10-1",
+      "raw": {
+        "user": "blair@cvi-training.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-F6FAF6-10-1",
+        "time_utc": "2026-09-28T13:10:00Z",
+        "device_id": "managed-blair",
+        "source_ip": "192.0.2.11",
+        "mfa_detail": "challenged_now",
+        "application": "CaseDesk",
+        "correlation_id": "LC-F6FAF6-10",
+        "scenario_location": "Office-A",
+        "authentication_method": "password_plus_mfa"
+      },
+      "seq": 10,
+      "account": "cl-blair"
+    },
+    {
+      "id": "LS-F6FAF6-17-1",
+      "raw": {
+        "user": "blair@cvi-training.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-F6FAF6-17-1",
+        "time_utc": "2026-09-28T13:17:00Z",
+        "device_id": "managed-blair",
+        "source_ip": "192.0.2.11",
+        "mfa_detail": "challenged_now",
+        "application": "CaseDesk",
+        "correlation_id": "LC-F6FAF6-17",
+        "scenario_location": "Office-A",
+        "authentication_method": "password_plus_mfa"
+      },
+      "seq": 17,
+      "account": "cl-blair"
+    },
+    {
+      "id": "LS-F6FAF6-21-1",
+      "raw": {
+        "user": "alex@cvi-training.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-F6FAF6-21-1",
+        "time_utc": "2026-09-28T13:21:00Z",
+        "device_id": "managed-alex",
+        "source_ip": "192.0.2.10",
+        "mfa_detail": "challenged_now",
+        "application": "CaseDesk",
+        "correlation_id": "LC-F6FAF6-21",
+        "scenario_location": "Office-A",
+        "authentication_method": "password_plus_mfa"
+      },
+      "seq": 21,
+      "account": "cl-alex"
+    },
+    {
+      "id": "LS-F6FAF6-22-1",
+      "raw": {
+        "user": "alex@cvi-training.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-F6FAF6-22-1",
+        "time_utc": "2026-09-28T13:22:00Z",
+        "device_id": "managed-alex",
+        "source_ip": "192.0.2.10",
+        "mfa_detail": "challenged_now",
+        "application": "CaseDesk",
+        "correlation_id": "LC-F6FAF6-22",
+        "scenario_location": "Office-A",
+        "authentication_method": "password_plus_mfa"
+      },
+      "seq": 22,
+      "account": "cl-alex"
+    },
+    {
+      "id": "LS-F6FAF6-23-1",
+      "raw": {
+        "user": "alex@cvi-training.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-F6FAF6-23-1",
+        "time_utc": "2026-09-28T13:23:00Z",
+        "device_id": "managed-alex",
+        "source_ip": "192.0.2.10",
+        "mfa_detail": "challenged_now",
+        "application": "CaseDesk",
+        "correlation_id": "LC-F6FAF6-23",
+        "scenario_location": "Office-A",
+        "authentication_method": "password_plus_mfa"
+      },
+      "seq": 23,
+      "account": "cl-alex"
+    },
+    {
+      "id": "LS-F6FAF6-24-1",
+      "raw": {
+        "user": "alex@cvi-training.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-F6FAF6-24-1",
+        "time_utc": "2026-09-28T13:24:00Z",
+        "device_id": "managed-alex",
+        "source_ip": "192.0.2.10",
+        "mfa_detail": "challenged_now",
+        "application": "CaseDesk",
+        "correlation_id": "LC-F6FAF6-24",
+        "scenario_location": "Office-A",
+        "authentication_method": "password_plus_mfa"
+      },
+      "seq": 24,
+      "account": "cl-alex"
+    },
+    {
+      "id": "LS-F6FAF6-31-1",
+      "raw": {
+        "user": "finley@cvi-training.example",
+        "reason": "ACCOUNT_DISABLED",
+        "outcome": "failure",
+        "event_id": "LS-F6FAF6-31-1",
+        "time_utc": "2026-09-28T13:31:00Z",
+        "device_id": "managed-finley",
+        "source_ip": "192.0.2.14",
+        "mfa_detail": "not_recorded",
+        "application": "CaseDesk",
+        "correlation_id": "LC-F6FAF6-31",
+        "scenario_location": "Office-A",
+        "authentication_method": "password"
+      },
+      "seq": 31,
+      "account": "cl-finley"
+    },
+    {
+      "id": "LS-F6FAF6-32-1",
+      "raw": {
+        "user": "finley@cvi-training.example",
+        "reason": "ACCOUNT_DISABLED",
+        "outcome": "failure",
+        "event_id": "LS-F6FAF6-32-1",
+        "time_utc": "2026-09-28T13:32:00Z",
+        "device_id": "managed-finley",
+        "source_ip": "192.0.2.14",
+        "mfa_detail": "not_recorded",
+        "application": "CaseDesk",
+        "correlation_id": "LC-F6FAF6-32",
+        "scenario_location": "Office-A",
+        "authentication_method": "password"
+      },
+      "seq": 32,
+      "account": "cl-finley"
+    },
+    {
+      "id": "LS-F6FAF6-33-1",
+      "raw": {
+        "user": "finley@cvi-training.example",
+        "reason": "ACCOUNT_DISABLED",
+        "outcome": "failure",
+        "event_id": "LS-F6FAF6-33-1",
+        "time_utc": "2026-09-28T13:33:00Z",
+        "device_id": "managed-finley",
+        "source_ip": "192.0.2.14",
+        "mfa_detail": "not_recorded",
+        "application": "CaseDesk",
+        "correlation_id": "LC-F6FAF6-33",
+        "scenario_location": "Office-A",
+        "authentication_method": "password"
+      },
+      "seq": 33,
+      "account": "cl-finley"
+    },
+    {
+      "id": "LS-F6FAF6-34-1",
+      "raw": {
+        "user": "finley@cvi-training.example",
+        "reason": "ACCOUNT_DISABLED",
+        "outcome": "failure",
+        "event_id": "LS-F6FAF6-34-1",
+        "time_utc": "2026-09-28T13:34:00Z",
+        "device_id": "managed-finley",
+        "source_ip": "192.0.2.14",
+        "mfa_detail": "not_recorded",
+        "application": "CaseDesk",
+        "correlation_id": "LC-F6FAF6-34",
+        "scenario_location": "Office-A",
+        "authentication_method": "password"
+      },
+      "seq": 34,
+      "account": "cl-finley"
+    }
+  ],
+  "audits": [
+    {
+      "id": "LA-F6FAF6-2-2",
+      "seq": 2,
+      "time": "2026-09-28T13:02:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-F6FAF6-2-1",
+        "action": "read",
+        "account": "ad-alex",
+        "reasons": [
+          "NO_VALID_SESSION"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-HAND",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-F6FAF6-2"
+    },
+    {
+      "id": "LA-F6FAF6-7-2",
+      "seq": 7,
+      "time": "2026-09-28T13:07:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-F6FAF6-7-1",
+        "action": "read",
+        "account": "cl-blair",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-CASE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-F6FAF6-7"
+    },
+    {
+      "id": "LA-F6FAF6-8-2",
+      "seq": 8,
+      "time": "2026-09-28T13:08:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-F6FAF6-8-1",
+        "action": "read",
+        "account": "cl-blair",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-CASE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-F6FAF6-8"
+    },
+    {
+      "id": "LA-F6FAF6-9-2",
+      "seq": 9,
+      "time": "2026-09-28T13:09:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-F6FAF6-9-1",
+        "action": "update",
+        "account": "cl-blair",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-CASE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-F6FAF6-9"
+    },
+    {
+      "id": "LA-F6FAF6-11-2",
+      "seq": 11,
+      "time": "2026-09-28T13:11:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-F6FAF6-11-1",
+        "action": "update",
+        "account": "cl-blair",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-CASE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-F6FAF6-11"
+    },
+    {
+      "id": "LA-F6FAF6-12-1",
+      "seq": 12,
+      "time": "2026-09-28T13:12:00Z",
+      "after": [
+        "GC-JUN",
+        "GC-READ"
+      ],
+      "before": [
+        "GC-JUN"
+      ],
+      "reason": "",
+      "result": "accepted",
+      "target": "cl-blair",
+      "ticket": "T201",
+      "changed": [
+        "memberships"
+      ],
+      "activity": "group_member_added",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-F6FAF6-12"
+    },
+    {
+      "id": "LA-F6FAF6-13-1",
+      "seq": 13,
+      "time": "2026-09-28T13:13:00Z",
+      "after": {
+        "status": "enabled",
+        "securityRevision": 1
+      },
+      "before": {
+        "status": "enabled",
+        "securityRevision": 1
+      },
+      "reason": "",
+      "result": "no_op",
+      "target": "cl-blair",
+      "ticket": "T201",
+      "changed": [],
+      "activity": "account_status_changed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-F6FAF6-13"
+    },
+    {
+      "id": "LA-F6FAF6-14-2",
+      "seq": 14,
+      "time": "2026-09-28T13:14:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-F6FAF6-14-1",
+        "action": "read",
+        "account": "cl-blair",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-LAND",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-F6FAF6-14"
+    },
+    {
+      "id": "LA-F6FAF6-15-2",
+      "seq": 15,
+      "time": "2026-09-28T13:15:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-F6FAF6-15-1",
+        "action": "read",
+        "account": "cl-blair",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-CASE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-F6FAF6-15"
+    },
+    {
+      "id": "LA-F6FAF6-16-2",
+      "seq": 16,
+      "time": "2026-09-28T13:16:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-F6FAF6-16-1",
+        "action": "update",
+        "account": "cl-blair",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-CASE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-F6FAF6-16"
+    },
+    {
+      "id": "LA-F6FAF6-18-2",
+      "seq": 18,
+      "time": "2026-09-28T13:18:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-F6FAF6-18-1",
+        "action": "update",
+        "account": "cl-blair",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-CASE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-F6FAF6-18"
+    },
+    {
+      "id": "LA-F6FAF6-19-2",
+      "seq": 19,
+      "time": "2026-09-28T13:19:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-F6FAF6-19-1",
+        "action": "update",
+        "account": "cl-blair",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-CASE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-F6FAF6-19"
+    },
+    {
+      "id": "LA-F6FAF6-20-1",
+      "seq": 20,
+      "time": "2026-09-28T13:20:00Z",
+      "after": "resolved",
+      "before": "open",
+      "reason": "Blair granted access to read but not granted access to edit.",
+      "result": "accepted",
+      "target": "T201",
+      "ticket": "T201",
+      "changed": [
+        "status"
+      ],
+      "activity": "ticket_resolved",
+      "actorKind": "learner",
+      "targetType": "ticket",
+      "correlation": "LC-F6FAF6-20"
+    },
+    {
+      "id": "LA-F6FAF6-25-2",
+      "seq": 25,
+      "time": "2026-09-28T13:25:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-F6FAF6-25-1",
+        "action": "read",
+        "account": "cl-alex",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-QUEUE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-F6FAF6-25"
+    },
+    {
+      "id": "LA-F6FAF6-26-2",
+      "seq": 26,
+      "time": "2026-09-28T13:26:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-F6FAF6-26-1",
+        "action": "export",
+        "account": "cl-alex",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-AUD",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-F6FAF6-26"
+    },
+    {
+      "id": "LA-F6FAF6-27-1",
+      "seq": 27,
+      "time": "2026-09-28T13:27:00Z",
+      "after": {
+        "sessionsRevoked": 0,
+        "securityRevision": 2
+      },
+      "before": null,
+      "reason": "",
+      "result": "accepted",
+      "target": "cl-finley",
+      "ticket": "T503",
+      "changed": [
+        "sessions",
+        "securityRevision"
+      ],
+      "activity": "sessions_revoked",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-F6FAF6-27"
+    },
+    {
+      "id": "LA-F6FAF6-28-1",
+      "seq": 28,
+      "time": "2026-09-28T13:28:00Z",
+      "after": {
+        "status": "disabled",
+        "sessionsRevoked": 0,
+        "securityRevision": 3
+      },
+      "before": {
+        "status": "enabled",
+        "securityRevision": 2
+      },
+      "reason": "Termination approved by HR (not requested by the account holder). Effective immediately.",
+      "result": "accepted",
+      "target": "cl-finley",
+      "ticket": "T503",
+      "changed": [
+        "status",
+        "securityRevision",
+        "sessions"
+      ],
+      "activity": "account_status_changed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-F6FAF6-28"
+    },
+    {
+      "id": "LA-F6FAF6-29-1",
+      "seq": 29,
+      "time": "2026-09-28T13:29:00Z",
+      "after": [
+        "GC-READ"
+      ],
+      "before": [
+        "GC-READ"
+      ],
+      "reason": "Termination approved by HR (not requested by the account holder). Effective immediately.",
+      "result": "no_op",
+      "target": "cl-finley",
+      "ticket": "T503",
+      "changed": [],
+      "activity": "group_member_removed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-F6FAF6-29"
+    },
+    {
+      "id": "LA-F6FAF6-30-1",
+      "seq": 30,
+      "time": "2026-09-28T13:30:00Z",
+      "after": {
+        "status": "disabled",
+        "sessionsRevoked": 0,
+        "securityRevision": 2
+      },
+      "before": {
+        "status": "enabled",
+        "securityRevision": 1
+      },
+      "reason": "Termination approved by HR (not requested by the account holder). Effective immediately.",
+      "result": "accepted",
+      "target": "ad-finley",
+      "ticket": "T503",
+      "changed": [
+        "status",
+        "securityRevision",
+        "sessions"
+      ],
+      "activity": "account_status_changed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-F6FAF6-30"
+    }
+  ],
+  "accessTests": [
+    {
+      "id": "AT-F6FAF6-2-1",
+      "seq": 2,
+      "mode": "current-access",
+      "paths": [],
+      "action": "read",
+      "device": null,
+      "account": "ad-alex",
+      "reasons": [
+        "NO_VALID_SESSION"
+      ],
+      "session": null,
+      "decision": "deny",
+      "resource": "R-HAND",
+      "revision": 2,
+      "memberships": [
+        "GA-ALL",
+        "GA-RESP"
+      ]
+    },
+    {
+      "id": "AT-F6FAF6-7-1",
+      "seq": 7,
+      "mode": "current-access",
+      "paths": [],
+      "action": "read",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-F6FAF6-6",
+      "decision": "deny",
+      "resource": "R-CASE",
+      "revision": 7,
+      "memberships": [
+        "GC-JUN"
+      ]
+    },
+    {
+      "id": "AT-F6FAF6-8-1",
+      "seq": 8,
+      "mode": "current-access",
+      "paths": [],
+      "action": "read",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-F6FAF6-6",
+      "decision": "deny",
+      "resource": "R-CASE",
+      "revision": 8,
+      "memberships": [
+        "GC-JUN"
+      ]
+    },
+    {
+      "id": "AT-F6FAF6-9-1",
+      "seq": 9,
+      "mode": "current-access",
+      "paths": [],
+      "action": "update",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-F6FAF6-6",
+      "decision": "deny",
+      "resource": "R-CASE",
+      "revision": 9,
+      "memberships": [
+        "GC-JUN"
+      ]
+    },
+    {
+      "id": "AT-F6FAF6-11-1",
+      "seq": 11,
+      "mode": "current-access",
+      "paths": [],
+      "action": "update",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-F6FAF6-10",
+      "decision": "deny",
+      "resource": "R-CASE",
+      "revision": 11,
+      "memberships": [
+        "GC-JUN"
+      ]
+    },
+    {
+      "id": "AT-F6FAF6-14-1",
+      "seq": 14,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "role",
+          "role": "RL-LAND",
+          "group": "GC-JUN",
+          "scope": "R-LAND",
+          "assignment": "AS-01"
+        }
+      ],
+      "action": "read",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-F6FAF6-10",
+      "decision": "allow",
+      "resource": "R-LAND",
+      "revision": 14,
+      "memberships": [
+        "GC-JUN",
+        "GC-READ"
+      ]
+    },
+    {
+      "id": "AT-F6FAF6-15-1",
+      "seq": 15,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "role",
+          "role": "RL-READ",
+          "group": "GC-READ",
+          "scope": "R-CASE",
+          "assignment": "AS-02"
+        }
+      ],
+      "action": "read",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-F6FAF6-10",
+      "decision": "allow",
+      "resource": "R-CASE",
+      "revision": 15,
+      "memberships": [
+        "GC-JUN",
+        "GC-READ"
+      ]
+    },
+    {
+      "id": "AT-F6FAF6-16-1",
+      "seq": 16,
+      "mode": "current-access",
+      "paths": [],
+      "action": "update",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-F6FAF6-10",
+      "decision": "deny",
+      "resource": "R-CASE",
+      "revision": 16,
+      "memberships": [
+        "GC-JUN",
+        "GC-READ"
+      ]
+    },
+    {
+      "id": "AT-F6FAF6-18-1",
+      "seq": 18,
+      "mode": "current-access",
+      "paths": [],
+      "action": "update",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-F6FAF6-10",
+      "decision": "deny",
+      "resource": "R-CASE",
+      "revision": 18,
+      "memberships": [
+        "GC-JUN",
+        "GC-READ"
+      ]
+    },
+    {
+      "id": "AT-F6FAF6-19-1",
+      "seq": 19,
+      "mode": "current-access",
+      "paths": [],
+      "action": "update",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-F6FAF6-6",
+      "decision": "deny",
+      "resource": "R-CASE",
+      "revision": 19,
+      "memberships": [
+        "GC-JUN",
+        "GC-READ"
+      ]
+    },
+    {
+      "id": "AT-F6FAF6-25-1",
+      "seq": 25,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "role",
+          "role": "RL-RESP",
+          "group": "GC-RESP",
+          "scope": "R-QUEUE",
+          "assignment": "AS-03"
+        }
+      ],
+      "action": "read",
+      "device": "managed-alex",
+      "account": "cl-alex",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-F6FAF6-24",
+      "decision": "allow",
+      "resource": "R-QUEUE",
+      "revision": 25,
+      "memberships": [
+        "GC-RESP"
+      ]
+    },
+    {
+      "id": "AT-F6FAF6-26-1",
+      "seq": 26,
+      "mode": "current-access",
+      "paths": [],
+      "action": "export",
+      "device": "managed-alex",
+      "account": "cl-alex",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-F6FAF6-24",
+      "decision": "deny",
+      "resource": "R-AUD",
+      "revision": 26,
+      "memberships": [
+        "GC-RESP"
+      ]
+    }
+  ]
+}

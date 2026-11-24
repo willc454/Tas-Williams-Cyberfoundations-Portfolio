@@ -1,0 +1,63 @@
+{
+  "seed": "chic-w11-v1",
+  "attempt": "attempt F6FAF6",
+  "state_revision": 34,
+  "text_revision": 427,
+  "exported_at": "2026-11-21T03:14:50.163Z",
+  "draft": true,
+  "provenance": "Fictional Cloud Heights simulation. Historical records are fabricated; live records were produced by this attempt.",
+  "files": [
+    {
+      "path": "week-11/labs/lab-01-identity-directory.md",
+      "sha256": "c23fa73728c176bc046feaaee145f0d0ea275ba527bcb2f5e03e6eea2cc4d8bd"
+    },
+    {
+      "path": "week-11/labs/lab-02-authentication-vs-authorization.md",
+      "sha256": "68460c4ccb6efb43147cf4d19ba162a94ef76a01cef04b24c481b556942cb7ea"
+    },
+    {
+      "path": "week-11/labs/lab-03-build-and-manage-directory.md",
+      "sha256": "7a5954420afe65cea3cb605fbabbec14fb59b72098c7ca893824c3432457a593"
+    },
+    {
+      "path": "week-11/labs/lab-04-least-privilege-challenge.md",
+      "sha256": "f9a39bda4b19e7436197cde7767a55c3ba34bb077ac23988cd9f4079d8e94170"
+    },
+    {
+      "path": "week-11/labs/lab-05-joiner-mover-leaver.md",
+      "sha256": "996860e9fb0894e5bc290bf5da4e55459c586067bd1174986ac54c13135372e1"
+    },
+    {
+      "path": "week-11/labs/lab-06-identity-investigation-case-file.md",
+      "sha256": "a8fc57187cae916a1ee8a9e08c08e9929d69a830a0ed2f401a16ddbe02afd2b5"
+    },
+    {
+      "path": "week-11/README.md",
+      "sha256": "66c90e806014e8b075b465fbc0b797ee9c081f99a520a8e065d76040e4a052a1"
+    },
+    {
+      "path": "week-11/labs/README.md",
+      "sha256": "31845e42c1cd19b16bdef66a811a978974a55413fe705629871e80efd29abeb2"
+    },
+    {
+      "path": "week-11/labs/evidence/week11-evidence.json",
+      "sha256": "1fca375b6789574b761f5b1d1f8442d6eed4d65b98afa7d109ea13da2f2b35c6"
+    },
+    {
+      "path": "week-11/labs/evidence/week11-evidence-index.md",
+      "sha256": "bc84e8a421dc41d0e50dec7054cfbadedd2c8ae75be2d8a79d5cfe69086837bd"
+    },
+    {
+      "path": "week-11/labs/evidence/historical-signins.tsv",
+      "sha256": "3f7f5675fd802d9f0ae5ee9d35013004c7d355f06ef5acf0b2cd917ab48b0b8d"
+    },
+    {
+      "path": "week-11/labs/evidence/historical-audit.tsv",
+      "sha256": "a97248236c037e8c79ebd48a27ee85585949879218558ae712873d3b2a1d7bd8"
+    },
+    {
+      "path": "week-11/labs/evidence/simulator-activity.json",
+      "sha256": "1a642f1f9ec5d3cef6ae4b2bd49b870e80753d50c3b01ef12e98cf980ebac89d"
+    }
+  ]
+}
